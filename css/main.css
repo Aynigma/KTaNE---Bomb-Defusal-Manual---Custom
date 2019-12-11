@@ -41,12 +41,15 @@ textarea {
     }
 }
 
+
+/*
 @font-face {
     font-family: 'Special Elite';
     src: local('Special Elite'), local('Special Elite Regular'), url('http://www.bombmanual.com/web/fonts/SpecialElite-webfont.woff2') format('woff2'), url('../fonts/SpecialElite-webfont.eot'), url('../fonts/SpecialElite-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/SpecialElite-webfont.woff2') format('woff2'), url('../fonts/SpecialElite-webfont.woff') format('woff'), url('../fonts/SpecialElite-webfont.ttf') format('truetype'), url('../fonts/SpecialElite-webfont.svg#special_eliteregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 html {
     font-family: 'Special Elite', 'Courier New', monospace;

@@ -28,7 +28,7 @@
 }
 
 .Summary-content>ul>li>ul>li>a:visited {
-    color: navy;
+    color: blue;
 }
 
 .page {
@@ -81,6 +81,45 @@
 
 .black-table input[type="checkbox"]:checked+label {
     background-color: #999;
+}
+
+#Memory_gui {
+    background-color: #DDD;
+    background-blend-mode: multiply;
+    background-image: url("../img/background/page-bg-noise-06.png");
+    background-size: cover;
+    width: 200px;
+    position: sticky;
+    text-align: center;
+    top: 25px;
+    left: calc(100vw - 250px);
+    box-shadow: rgb(139, 139, 139) 0em 0em 0.6em;
+    z-index: 1;
+    float: right;
+}
+
+#Memory_gui>form>input[type="reset"] {
+    margin: 5px;
+}
+
+#Memory_gui>form>table>thead>tr>th {
+    width: 100px;
+}
+
+#Memory_gui>form>table>tbody>tr>td>input[type="radio"] {
+    display: none;
+}
+
+#Memory_gui>form>table>tbody>tr>td>input[type="radio"]:checked+label {
+    color: limegreen;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+#Memory_gui>form>table>tbody>tr>td>label {
+    display: block;
+    font-size: 14pt;
+    width: 75px;
 }
 
 @media screen and (min-width: 1100px) {
