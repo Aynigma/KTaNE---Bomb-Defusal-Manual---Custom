@@ -1,0 +1,93 @@
+#Summary {
+    background-color: #DDD;
+    background-blend-mode: multiply;
+    background-image: url("../img/background/page-bg-noise-06.png");
+    background-size: cover;
+    width: 125px;
+    position: fixed;
+    box-shadow: rgb(139, 139, 139) 0em 0em 0.6em;
+    z-index: 1;
+}
+
+.Summary-content>ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.Summary-content>ul>li {
+    padding-bottom: 10px;
+}
+
+.Summary-content>ul>li>ul {
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+.Summary-content>ul>li>ul>li>a {
+    font-size: 12pt;
+}
+
+.Summary-content>ul>li>ul>li>a:visited {
+    color: navy;
+}
+
+.page {
+    background-color: #DDD;
+    background-blend-mode: multiply;
+}
+
+.red {
+    background-color: #F99;
+}
+
+.green {
+    background-color: #9F9;
+}
+
+.blue {
+    background-color: #99F;
+}
+
+.yellow {
+    background-color: #FF9;
+}
+
+.white {
+    background-color: #FFF;
+}
+
+.black {
+    background-color: #999;
+}
+
+.table-container input[type="checkbox"] {
+    display: none;
+}
+
+.table-container label {
+    display: flex;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-table input[type="checkbox"]:checked+label {
+    background-color: #F99;
+}
+
+.blue-table input[type="checkbox"]:checked+label {
+    background-color: #99F;
+}
+
+.black-table input[type="checkbox"]:checked+label {
+    background-color: #999;
+}
+
+@media screen and (min-width: 1100px) {
+    #Summary {
+        width: 200px;
+    }
+    .Summary-content>ul>li>ul>li>a {
+        font-size: 18pt;
+    }
+}
